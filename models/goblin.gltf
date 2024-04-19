@@ -1,226 +1,471 @@
 {
-  "accessors": [
-    {
-      "bufferView": 2,
-      "componentType": 5126,
-      "count": 2686,
-      "max": [
-        3.3389663696289063,
-        8.054567337036133,
-        2.5177221298217773
-      ],
-      "min": [
-        -3.3389668464660645,
-        -0.03534746170043945,
-        -0.5018801689147949
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 32232,
-      "componentType": 5126,
-      "count": 2686,
-      "max": [
-        0.9995594620704651,
-        0.999248743057251,
-        0.9998970031738281
-      ],
-      "min": [
-        -0.9995561838150024,
-        -0.9997182488441467,
-        -0.9995705485343933
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 1,
-      "componentType": 5126,
-      "count": 2686,
-      "max": [
-        0.9990020394325256,
-        0.9990019202232361
-      ],
-      "min": [
-        0.0009980041068047285,
-        0.0009980039903894067
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 0,
-      "componentType": 5125,
-      "count": 10680,
-      "type": "SCALAR"
-    }
-  ],
-  "asset": {
-    "extras": {
-      "author": "KarSa (https://sketchfab.com/iamrikofly)",
-      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/goblin-lowpoly-c456cd980d5b47aeaa8b54f70d83daf2",
-      "title": "Goblin LowPoly"
-    },
-    "generator": "Sketchfab-14.98.0",
-    "version": "2.0"
-  },
-  "bufferViews": [
-    {
-      "buffer": 0,
-      "byteLength": 42720,
-      "name": "floatBufferViews",
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteLength": 21488,
-      "byteOffset": 42720,
-      "byteStride": 8,
-      "name": "floatBufferViews",
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 64464,
-      "byteOffset": 64208,
-      "byteStride": 12,
-      "name": "floatBufferViews",
-      "target": 34962
-    }
-  ],
-  "buffers": [
-    {
-      "byteLength": 128672,
-      "uri": "scene.bin"
-    }
-  ],
-  "extensionsUsed": [
-    "KHR_materials_unlit"
-  ],
-  "images": [
-    {
-      "uri": "textures/surfaceShader1_baseColor.png"
-    }
-  ],
-  "materials": [
-    {
-      "doubleSided": true,
-      "extensions": {
-        "KHR_materials_unlit": {}
-      },
-      "name": "surfaceShader1",
-      "pbrMetallicRoughness": {
-        "baseColorTexture": {
-          "index": 0
-        },
-        "metallicFactor": 0.0
-      }
-    }
-  ],
-  "meshes": [
-    {
-      "name": "Goblin_surfaceShader1_0",
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 1,
-            "POSITION": 0,
-            "TEXCOORD_0": 2
-          },
-          "indices": 3,
-          "material": 0,
-          "mode": 4
-        }
-      ]
-    }
-  ],
-  "nodes": [
-    {
-      "children": [
-        1
-      ],
-      "matrix": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        2.220446049250313e-16,
-        -1.0,
-        0.0,
-        0.0,
-        1.0,
-        2.220446049250313e-16,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "name": "Sketchfab_model"
-    },
-    {
-      "children": [
-        2
-      ],
-      "matrix": [
-        0.009999999776482582,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.009999999776482582,
-        0.0,
-        0.0,
-        -0.009999999776482582,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "name": "9b44edba14804541848392913560ed0c.fbx"
-    },
-    {
-      "children": [
-        3
-      ],
-      "name": "RootNode"
-    },
-    {
-      "children": [
-        4
-      ],
-      "name": "Goblin"
-    },
-    {
-      "mesh": 0,
-      "name": "Goblin_surfaceShader1_0"
-    }
-  ],
-  "samplers": [
-    {
-      "magFilter": 9729,
-      "minFilter": 9987,
-      "wrapS": 10497,
-      "wrapT": 10497
-    }
-  ],
-  "scene": 0,
-  "scenes": [
-    {
-      "name": "Sketchfab_Scene",
-      "nodes": [
-        0
-      ]
-    }
-  ],
-  "textures": [
-    {
-      "sampler": 0,
-      "source": 0
-    }
-  ]
+	"asset":{
+		"generator":"Khronos glTF Blender I/O v4.0.44",
+		"version":"2.0"
+	},
+	"scene":0,
+	"scenes":[
+		{
+			"name":"Scene",
+			"nodes":[
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"nodes":[
+		{
+			"name":"Goblin"
+		},
+		{
+			"children":[
+				0
+			],
+			"name":"RootNode"
+		},
+		{
+			"children":[
+				1
+			],
+			"name":"9b44edba14804541848392913560ed0c.fbx",
+			"rotation":[
+				0.70710688829422,
+				0,
+				0,
+				0.7071066498756409
+			],
+			"scale":[
+				0.009999999776482582,
+				0.010000000707805157,
+				0.010000000707805157
+			]
+		},
+		{
+			"mesh":0,
+			"name":"Icosphere.001_Icosphere.010",
+			"translation":[
+				0,
+				0,
+				11.71562671661377
+			]
+		},
+		{
+			"mesh":1,
+			"name":"Cylinder_Cylinder.005",
+			"translation":[
+				0,
+				0,
+				11.71562671661377
+			]
+		},
+		{
+			"mesh":2,
+			"name":"Plane",
+			"translation":[
+				0,
+				0,
+				11.71562671661377
+			]
+		},
+		{
+			"mesh":3,
+			"name":"Goblin.001",
+			"rotation":[
+				0.4777144491672516,
+				0.5213338732719421,
+				-0.5213338136672974,
+				0.477714478969574
+			],
+			"scale":[
+				2.1814260482788086,
+				2.1814260482788086,
+				2.1814260482788086
+			],
+			"translation":[
+				-1.892136573791504,
+				0,
+				0
+			]
+		}
+	],
+	"materials":[
+		{
+			"name":"green",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.03067000024020672,
+					0.37575000524520874,
+					0,
+					1
+				],
+				"metallicFactor":0,
+				"roughnessFactor":0.9039215445518494
+			}
+		},
+		{
+			"name":"Material.004",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.22025799751281738,
+					0.08301500231027603,
+					0,
+					1
+				],
+				"metallicFactor":0,
+				"roughnessFactor":0.9039215445518494
+			}
+		},
+		{
+			"name":"grass",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.023125000298023224,
+					0.16633300483226776,
+					0,
+					1
+				],
+				"metallicFactor":0,
+				"roughnessFactor":0.9039215445518494
+			}
+		},
+		{
+			"name":"brown",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.024848999455571175,
+					0.006895999889820814,
+					0,
+					1
+				],
+				"metallicFactor":0,
+				"roughnessFactor":0.9039215445518494
+			}
+		},
+		{
+			"doubleSided":true,
+			"name":"surfaceShader1",
+			"pbrMetallicRoughness":{
+				"metallicFactor":0,
+				"roughnessFactor":0.5527864098548889
+			}
+		}
+	],
+	"meshes":[
+		{
+			"name":"Icosphere.001_Icosphere.010-Mesh",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":0,
+						"NORMAL":1
+					},
+					"indices":2,
+					"material":0
+				}
+			]
+		},
+		{
+			"name":"Cylinder_Cylinder.005-Mesh",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":3,
+						"NORMAL":4
+					},
+					"indices":5,
+					"material":1
+				}
+			]
+		},
+		{
+			"name":"Plane-Mesh",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":6,
+						"NORMAL":7
+					},
+					"indices":8,
+					"material":2
+				},
+				{
+					"attributes":{
+						"POSITION":9,
+						"NORMAL":10
+					},
+					"indices":11,
+					"material":3
+				}
+			]
+		},
+		{
+			"name":"Mesh",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":12,
+						"NORMAL":13,
+						"TEXCOORD_0":14
+					},
+					"indices":15,
+					"material":4
+				}
+			]
+		}
+	],
+	"accessors":[
+		{
+			"bufferView":0,
+			"componentType":5126,
+			"count":66,
+			"max":[
+				3.635283946990967,
+				14.040473937988281,
+				5.690619945526123
+			],
+			"min":[
+				-4.713205814361572,
+				3.1216320991516113,
+				-4.484302997589111
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":1,
+			"componentType":5126,
+			"count":66,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":2,
+			"componentType":5123,
+			"count":360,
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":3,
+			"componentType":5126,
+			"count":236,
+			"max":[
+				0.8460670113563538,
+				6.03260612487793,
+				1.7234870195388794
+			],
+			"min":[
+				-1.634300947189331,
+				0.7607309818267822,
+				-0.8420979976654053
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":4,
+			"componentType":5126,
+			"count":236,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":5,
+			"componentType":5123,
+			"count":384,
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":6,
+			"componentType":5126,
+			"count":2008,
+			"max":[
+				5.847179889678955,
+				1.112684965133667,
+				6.147984027862549
+			],
+			"min":[
+				-5.828269004821777,
+				0.1839189976453781,
+				-5.5051350593566895
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":7,
+			"componentType":5126,
+			"count":2008,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":8,
+			"componentType":5123,
+			"count":3456,
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":9,
+			"componentType":5126,
+			"count":2570,
+			"max":[
+				5.847179889678955,
+				0.1839189976453781,
+				6.147984027862549
+			],
+			"min":[
+				-5.828269004821777,
+				-0.6707130074501038,
+				-5.5051350593566895
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":10,
+			"componentType":5126,
+			"count":2570,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":11,
+			"componentType":5123,
+			"count":3456,
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":12,
+			"componentType":5126,
+			"count":2686,
+			"max":[
+				3.3389663696289062,
+				2.5177221298217773,
+				0.03534746170043945
+			],
+			"min":[
+				-3.3389668464660645,
+				-0.5018801689147949,
+				-8.054567337036133
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":13,
+			"componentType":5126,
+			"count":2686,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":14,
+			"componentType":5126,
+			"count":2686,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":15,
+			"componentType":5123,
+			"count":10680,
+			"type":"SCALAR"
+		}
+	],
+	"bufferViews":[
+		{
+			"buffer":0,
+			"byteLength":792,
+			"byteOffset":0,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":792,
+			"byteOffset":792,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":720,
+			"byteOffset":1584,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":2832,
+			"byteOffset":2304,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":2832,
+			"byteOffset":5136,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":768,
+			"byteOffset":7968,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":24096,
+			"byteOffset":8736,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":24096,
+			"byteOffset":32832,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":6912,
+			"byteOffset":56928,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":30840,
+			"byteOffset":63840,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":30840,
+			"byteOffset":94680,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":6912,
+			"byteOffset":125520,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":32232,
+			"byteOffset":132432,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":32232,
+			"byteOffset":164664,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":21488,
+			"byteOffset":196896,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":21360,
+			"byteOffset":218384,
+			"target":34963
+		}
+	],
+	"buffers":[
+		{
+			"byteLength":239744,
+			"uri":"goblin.bin"
+		}
+	]
 }
